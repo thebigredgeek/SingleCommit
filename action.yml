@@ -1,0 +1,9 @@
+name: 'OneCommit'
+description: 'Checks if pull request has single commit or not'
+author: 'Andrew E. Rhyne'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: 'git-pull-request'
+  color: 'green'
